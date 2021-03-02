@@ -15,12 +15,6 @@ import Tablouri from "./pages/tablouri/Tablouri";
 function App() {
   return (
     <Router>
-      <Link to="/iarna"></Link>
-      <Link to="/primavara"></Link>
-      <Link to="/flori"></Link>
-      <Link to="/quilling"></Link>
-      <Link to="/origami"></Link>
-      <Link to="/crosetate"></Link>
       <Switch>
         <Route exact path="/">
           <Header />
