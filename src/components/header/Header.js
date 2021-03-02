@@ -20,6 +20,7 @@ import {
   Nav,
   Name,
   Button,
+  Faicon,
 } from "./Header.style";
 import Dropdown from "./Dropdown";
 
@@ -29,7 +30,7 @@ const Header = () => {
       <Container>
         <Icons1>
           <Button>
-            <FontAwesomeIcon icon={faFacebook} />
+            <Faicon className={"fb"} icon={faFacebook} />
           </Button>
           <Button>
             <FontAwesomeIcon icon={faInstagram} />

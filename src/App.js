@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Link } from "./pages/common.style";
 import Header from "./components/header/Header";
 import Content from "./components/content/Content";
 import Footer from "./components/footer/Footer";
@@ -22,7 +21,6 @@ function App() {
           <Footer />
         </Route>
         <Route path="/iarna">
-          <Header />
           <Iarna />
         </Route>
         <Route path="/primavara">

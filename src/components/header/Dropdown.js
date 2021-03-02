@@ -7,7 +7,11 @@ const Dropdown = ({ icon }) => {
 
   return (
     <Container>
-      <FontAwesomeIcon icon={icon} onClick={() => setIsOpen(!isOpen)} />
+      <FontAwesomeIcon
+        icon={icon}
+        onClick={() => setIsOpen(!isOpen)}
+        onBlur={() => setIsOpen(false)}
+      />
       <DropdownList isOpen={isOpen}>
         <Content>
           <p>Despre noi</p>

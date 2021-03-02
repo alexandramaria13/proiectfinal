@@ -1,6 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
+export const Faicon = styled(FontAwesomeIcon)`
+  &.fb {
+    color: red;
+  }
+  &.fb:hover {
+    color: black;
+  }
+`;
+
 export const Header = styled.div`
   background-color: #7fffd4;
   position: fixed;

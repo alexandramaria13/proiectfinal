@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../../components/header/Header";
 import sigla from "../../images/dscn3958.jpg";
 import bufnite from "../../images/1.jpg";
 import omDeZapada from "../../images/20.jpg";
@@ -23,6 +24,7 @@ import {
 const Iarna = () => {
   return (
     <Container>
+      <Header />
       <FirstPart>
         <img src={sigla} />
         <Descriere>
