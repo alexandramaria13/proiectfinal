@@ -15,6 +15,11 @@ export const FirstPart = styled.div`
     border-radius: 50%;
     padding-right: 10px;
   }
+  @media (max-width: 760px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Descriere = styled.div`
@@ -25,6 +30,9 @@ export const Name = styled.h2`
   color: #d2691e;
   font-size: 26px;
   padding-bottom: 10px;
+  @media (max-width: 760px) {
+    text-align: center;
+  }
 `;
 
 export const Text = styled.p`
@@ -45,6 +53,11 @@ export const Row = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  @media (max-width: 760px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const Details = styled.div`

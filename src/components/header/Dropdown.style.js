@@ -8,7 +8,6 @@ export const Container = styled.div`
 export const DropdownList = styled.div`
   position: absolute;
   z-index: 2;
-  right: 0;
   top: calc(100% + 5px);
   background-color: #ffffff;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);

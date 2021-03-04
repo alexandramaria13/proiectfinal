@@ -48,12 +48,18 @@ export const Icons1 = styled.ul`
   display: inline-flex;
   font-size: 18px;
   align-items: center;
+  @media (max-width: 760px) {
+    visibility: hidden;
+  }
 `;
 
 export const Icons2 = styled.ul`
   display: flex;
   font-size: 18px;
   align-items: center;
+  @media (max-width: 760px) {
+    visibility: hidden;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -67,6 +73,9 @@ export const Nav = styled.nav`
     display: block;
     border-radius: 50%;
   }
+  @media (max-width: 760px) {
+    flex-direction: column;
+  }
 `;
 
 export const Name = styled.p`
@@ -74,6 +83,9 @@ export const Name = styled.p`
   p {
     font-weight: 600;
     font-size: 22px;
+  }
+  @media (max-width: 760px) {
+    text-align: center;
   }
   h2 {
     font-size: 12px;
