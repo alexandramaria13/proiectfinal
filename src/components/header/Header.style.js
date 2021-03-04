@@ -2,11 +2,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
 
 export const Faicon = styled(FontAwesomeIcon)`
-  &.fb {
-    color: red;
-  }
   &.fb:hover {
-    color: black;
+    color: rgba(65, 105, 225, 1);
+    text-decoration: none;
+  }
+  &.insta:hover {
+    color: rgba(65, 105, 225, 1);
+    text-decoration: none;
+  }
+  &.pint:hover {
+    color: rgba(65, 105, 225, 1);
+    text-decoration: none;
+  }
+  &.search:hover {
+    color: rgba(65, 105, 225, 1);
+    text-decoration: none;
+  }
+  &.log:hover {
+    color: rgba(65, 105, 225, 1);
+    text-decoration: none;
+  }
+  &.view:hover {
+    color: rgba(65, 105, 225, 1);
+    text-decoration: none;
   }
 `;
 
@@ -68,7 +86,4 @@ export const Button = styled.div`
   color: #191970;
   margin-right: 10px;
   transition: color 0.3s;
-  &:hover {
-    color: rgba(65, 105, 225, 1);
-  }
 `;

@@ -6,4 +6,6 @@ export const Link = styled(L)`
   font-size: 1.5rem;
   color: #d2691e;
   font-family: sans-serif;
+  display: block;
+  text-align: center;
 `;

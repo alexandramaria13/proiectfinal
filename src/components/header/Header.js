@@ -30,13 +30,13 @@ const Header = () => {
       <Container>
         <Icons1>
           <Button>
-            <Faicon className={"fb"} icon={faFacebook} />
+            <Faicon className={"fb"} icon={faFacebook} title="Facebook" />
           </Button>
           <Button>
-            <FontAwesomeIcon icon={faInstagram} />
+            <Faicon className={"insta"} icon={faInstagram} title="Instagram" />
           </Button>
           <Button>
-            <FontAwesomeIcon icon={faPinterest} />
+            <Faicon className={"pint"} icon={faPinterest} title="Pinterest" />
           </Button>
         </Icons1>
         <Nav>
@@ -49,13 +49,21 @@ const Header = () => {
         </Nav>
         <Icons2>
           <Button>
-            <FontAwesomeIcon icon={faSearch} />
+            <Faicon className={"search"} icon={faSearch} title="Search" />
           </Button>
           <Button>
-            <FontAwesomeIcon icon={faSignInAlt} />
+            <Faicon
+              className={"log"}
+              icon={faSignInAlt}
+              title="Log in/Register"
+            />
           </Button>
           <Button>
-            <FontAwesomeIcon icon={faHeart} />
+            <Faicon
+              className={"view"}
+              icon={faHeart}
+              title="View your wishlist"
+            />
           </Button>
         </Icons2>
       </Container>
